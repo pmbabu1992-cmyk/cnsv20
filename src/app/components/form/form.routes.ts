@@ -7,22 +7,22 @@ const routes: Routes = [
     children: [
       {
         path: 'floating-labels',
-        title: 'Valex - Floating Labels',
+        title: 'CS - Floating Labels',
         loadComponent: () => import('./floating-labels/floating-labels.component').then(m => m.FloatingLabelsComponent),
       },
       {
         path: 'form-layouts',
-        title: 'Valex - Form Layouts',
+        title: 'CS - Form Layouts',
         loadComponent: () => import('./form-layouts/form-layouts.component').then(m => m.FormLayoutsComponent),
       },
       {
         path: 'form-validation',
-        title: 'Valex - Form Validation',
+        title: 'CS - Form Validation',
         loadComponent: () => import('./form-validation/form-validation.component').then(m => m.FormValidationComponent),
       },
       {
         path: 'select2',
-        title: 'Valex - Select2',
+        title: 'CS - Select2',
         loadComponent: () => import('./select2/select2.component').then(m => m.Select2Component),
       },
     ],

@@ -6,7 +6,7 @@ const routes: Routes = [
         path: 'dashboard',
         children: [
             {
-                path: '', title:"Valex - Dashboard",
+                path: '', title:"CS - Dashboard",
                 loadComponent: () => import('./dashboard/dashboard.component').then(m => m.DashboardComponent)
             },
         ],

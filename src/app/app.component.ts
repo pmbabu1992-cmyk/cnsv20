@@ -13,7 +13,7 @@ import { AppStateService } from './shared/services/app-state.service';
 })
 
 export class AppComponent {
-  title = 'valex';
+  title = 'CS';
   public isSpinner = true;
   
   constructor(private appState : AppStateService){

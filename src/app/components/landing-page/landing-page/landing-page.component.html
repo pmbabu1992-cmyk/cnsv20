@@ -36,14 +36,14 @@
           <div class="form-check switch-select">
             <label class="form-check-label" for="myonoffswitch54"> LTR </label>
             <input class="form-check-input" type="radio" name="direction" id="myonoffswitch54"
-              (click)="DirectionsChange('ltr')" [checked]="localdata['valex-dir'] != 'rtl'" />
+              (click)="DirectionsChange('ltr')" [checked]="localdata['CS-dir'] != 'rtl'" />
           </div>
         </div>
         <div class="col-4">
           <div class="form-check switch-select">
             <label class="form-check-label" for="myonoffswitch55"> RTL </label>
             <input class="form-check-input" type="radio" name="direction" id="myonoffswitch55"
-              (click)="DirectionsChange('rtl')" [checked]="localdata['valex-dir'] == 'rtl'" />
+              (click)="DirectionsChange('rtl')" [checked]="localdata['CS-dir'] == 'rtl'" />
           </div>
         </div>
       </div>
@@ -53,27 +53,27 @@
       <div class="d-flex align-items-center switcher-style">
         <div class="form-check switch-select me-3">
           <input class="form-check-input color-input color-primary-1" type="radio" name="theme-primary"
-            id="switcher-primary" (click)="primary('58, 88, 146')" [checked]="localdata['valex-primary-mode'] == '58, 88, 146'"  />
+            id="switcher-primary" (click)="primary('58, 88, 146')" [checked]="localdata['CS-primary-mode'] == '58, 88, 146'"  />
         </div>
         <div class="form-check switch-select me-3">
           <input class="form-check-input color-input color-primary-2" type="radio" name="theme-primary"
             id="switcher-primary1" (click)="primary('49, 176, 176')"
-            [checked]="localdata['valex-primary-mode'] == '49, 176, 176'" />
+            [checked]="localdata['CS-primary-mode'] == '49, 176, 176'" />
         </div>
         <div class="form-check switch-select me-3">
           <input class="form-check-input color-input color-primary-3" type="radio" name="theme-primary"
             id="switcher-primary2" (click)="primary('170, 82, 216')"
-            [checked]="localdata['valex-primary-mode'] == '170, 82, 216'" />
+            [checked]="localdata['CS-primary-mode'] == '170, 82, 216'" />
         </div>
         <div class="form-check switch-select me-3">
           <input class="form-check-input color-input color-primary-4" type="radio" name="theme-primary"
             id="switcher-primary3" (click)="primary('80, 198, 118')"
-            [checked]="localdata['valex-primary-mode'] == '80, 198, 118'" />
+            [checked]="localdata['CS-primary-mode'] == '80, 198, 118'" />
         </div>
         <div class="form-check switch-select me-3">
           <input class="form-check-input color-input color-primary-5" type="radio" name="theme-primary"
             id="switcher-primary4" (click)="primary('244, 86, 86')"
-            [checked]="localdata['valex-primary-mode'] == '244, 86, 86'" />
+            [checked]="localdata['CS-primary-mode'] == '244, 86, 86'" />
         </div>
         <div class="form-check switch-select ps-0 mt-1 color-primary-light">
           <div class="theme-container-primary"></div>
@@ -313,15 +313,15 @@
                     </h5>
                   </div>
                   <p class="landing-banner-heading mb-3">
-                    Build Your Dream Project with Valex !
+                    Build Your Dream Project with CS !
                   </p>
                   <div class="fs-16 mb-5 text-fixed-white op-7">
-                    Valex - Now you can use this admin template to design
+                    CS - Now you can use this admin template to design
                     stunning dashboards that will wow your target viewers or
                     users to no end. To create a good and well-structured
                     dashboard, you need to start from scratch with Angular, SCSS , Ng-Bootstrap and TS and with lots of
                     coding, but by using this
-                    Valex-Admin template.
+                    CS-Admin template.
                   </div>
                   <a routerLink="/dashboard" class="m-1 btn btn-primary">
                     Discover More
@@ -346,7 +346,7 @@
             <span class="landing-section-heading">Features</span>
           </p>
           <div class="landing-title"></div>
-          <h3 class="fw-semibold mb-2">Valex Main Features</h3>
+          <h3 class="fw-semibold mb-2">CS Main Features</h3>
           <div class="row justify-content-center">
             <div class="col-xl-7">
               <p class="text-muted fs-15 mb-5 fw-normal">
@@ -380,7 +380,7 @@
           </p>
           <div class="landing-title"></div>
           <h3 class="fw-semibold mb-2 text-fixed-white">
-            Features Used in Valex
+            Features Used in CS
           </h3>
           <div class="row justify-content-center">
             <div class="col-xl-7">
@@ -462,7 +462,7 @@
                     <div class="ms-2">
                       <h6 class="fw-medium mb-0">Quality & Clean Code</h6>
                       <p class="text-muted mb-3">
-                        The Valex admin code is maintained very cleanly and
+                        The CS admin code is maintained very cleanly and
                         well-structured with proper comments.
                       </p>
                     </div>
@@ -477,7 +477,7 @@
                       <h6 class="fw-medium mb-0">Well Documented</h6>
                       <p class="text-muted mb-3">
                         The documentation provides clear-cut material for the
-                        Valex admin template. The documentation is explained or
+                        CS admin template. The documentation is explained or
                         instructed in such a way that every user can understand.
                       </p>
                     </div>
@@ -551,7 +551,7 @@
           </p>
           <div class="landing-title"></div>
           <h3 class="fw-semibold mb-2 text-center">
-            Valex comes with most affordable pricing range.
+            CS comes with most affordable pricing range.
           </h3>
           <div class="row justify-content-center">
             <div class="col-xl-9">
@@ -1181,7 +1181,7 @@
       <div class="text-center landing-main-footer py-3">
         <span class="text-muted fs-15 me-1">
           Copyright © <span id="year">2025</span>
-          <a href="javascript:void(0);" class="text-primary ms-1 fw-semibold"><u>Valex</u></a>. Designed with <span
+          <a href="javascript:void(0);" class="text-primary ms-1 fw-semibold"><u>CS</u></a>. Designed with <span
             class="fa fa-heart text-danger"></span> by
           <a href="javascript:void(0);" class="text-primary fw-semibold"><u> Spruko</u>
           </a>

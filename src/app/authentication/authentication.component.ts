@@ -98,7 +98,7 @@ login() {
       .then(() => {
         this.router.navigate(['/dashboard']);
         console.clear();
-        this.toastr.success('login successful','Valex', {
+        this.toastr.success('login successful','CS', {
           timeOut: 3000,
           positionClass: 'toast-top-right',
         });
@@ -110,7 +110,7 @@ login() {
    
   }
   else {
-    this.toastr.error('Invalid details','Valex', {
+    this.toastr.error('Invalid details','CS', {
       timeOut: 3000,
       positionClass: 'toast-top-right',
     });
@@ -153,12 +153,12 @@ Submit() {
     this.loginForm.controls['password'].value === 'csadmin'
   ) {
     this.router.navigate(['/dashboard']);
-    this.toastr.success('login successful','Valex', {
+    this.toastr.success('login successful','CS', {
       timeOut: 3000,
       positionClass: 'toast-top-right',
     });
   } else {
-    this.toastr.error('Invalid details','Valex', {
+    this.toastr.error('Invalid details','CS', {
       timeOut: 3000,
       positionClass: 'toast-top-right',
     });

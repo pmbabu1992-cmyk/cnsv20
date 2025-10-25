@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "valex-v4": {
+    "CS": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -36,7 +36,7 @@
               "can-use-dom"
             ],
             "outputPath": {
-              "base": "preview1"
+              "base": "dist/cs"
             },
             "index": "src/index.html",
             "polyfills": [
@@ -93,10 +93,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {  
             "production": {
-              "buildTarget": "valex-v4:build:production"
+              "buildTarget": "CS:build:production"
             },
             "development": {
-              "buildTarget": "valex-v4:build:development"
+              "buildTarget": "CS:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -104,7 +104,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "valex-v4:build"
+            "buildTarget": "CS:build"
           }
         },
         "test": {

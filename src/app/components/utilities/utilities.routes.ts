@@ -16,47 +16,47 @@ const routes: Routes = [
     children: [
       {
         path: 'border',
-        title: 'Valex - Borders',
+        title: 'CS - Borders',
         loadComponent: () => import('./border/border.component').then(m => m.BorderComponent),
       },
       {
         path: 'flex',
-        title: 'Valex - Flex',
+        title: 'CS - Flex',
         loadComponent: () => import('./flex/flex.component').then(m => m.FlexComponent),
       },
       {
         path: 'breakponts',
-        title: 'Valex - Breakpoints',
+        title: 'CS - Breakpoints',
         loadComponent: () => import('./breakpoints/breakpoints.component').then(m => m.BreakpointsComponent),
       },
       {
         path: 'colors',
-        title: 'Valex - Colors',
+        title: 'CS - Colors',
         loadComponent: () => import('./colors/colors.component').then(m => m.ColorsComponent),
       },
       {
         path: 'columns',
-        title: 'Valex - Columns',
+        title: 'CS - Columns',
         loadComponent: () => import('./columns/columns.component').then(m => m.ColumnsComponent),
       },
       {
         path: 'gutters',
-        title: 'Valex - Flex',
+        title: 'CS - Flex',
         loadComponent: () => import('./gutters/gutters.component').then(m => m.GuttersComponent),
       },
       {
         path: 'helpers',
-        title: 'Valex - Helpers',
+        title: 'CS - Helpers',
         loadComponent: () => import('./helpers/helpers.component').then(m => m.HelpersComponent),
       },
       {
         path: 'position',
-        title: 'Valex - Position',
+        title: 'CS - Position',
         loadComponent: () => import('./position/position.component').then(m => m.PositionComponent),
       },
       {
         path: 'additional-content',
-        title: 'Valex - Additional Content',
+        title: 'CS - Additional Content',
         loadComponent: () => import('./additional-content/additional-content.component').then(m => m.AdditionalContentComponent),
       },
     ],

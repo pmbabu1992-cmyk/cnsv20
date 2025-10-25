@@ -9,7 +9,7 @@ const routes: Routes = [
     children: [
       {
         path: 'quill-editor',
-        title: 'Valex - Quill Editors',
+        title: 'CS - Quill Editors',
         loadComponent: () => import('./quill-editor/quill-editor.component').then(m => m.QuillEditorComponent),
       },
     ],

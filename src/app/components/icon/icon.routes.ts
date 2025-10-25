@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path: '',
     children: [
-      { path: 'icon', title: 'Valex -Icons', loadComponent: () => import('./icons/icons.component').then(m => m.IconsComponent) },
+      { path: 'icon', title: 'CS -Icons', loadComponent: () => import('./icons/icons.component').then(m => m.IconsComponent) },
      
     ],
   },

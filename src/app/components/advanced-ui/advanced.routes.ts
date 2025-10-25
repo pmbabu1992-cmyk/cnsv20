@@ -8,57 +8,57 @@ const routes: Routes = [
     children: [
       {
         path: 'accordion',
-        title: 'Valex - Accordion',
+        title: 'CS - Accordion',
         loadComponent: () => import('./accordion/accordion.component').then(m => m.AccordionComponent),
       },
       {
         path: 'carousel',
-        title: 'Valex - Carousel',
+        title: 'CS - Carousel',
         loadComponent: () => import('./carousel/carousel.component').then(m => m.CarouselComponent),
       },
       {
         path: 'modals',
-        title: 'Valex - Modals',
+        title: 'CS - Modals',
         loadComponent: () => import('./modals/modals.component').then(m => m.ModalsComponent),
       },
       {
         path: 'ratings',
-        title: 'Valex - Ratings',
+        title: 'CS - Ratings',
         loadComponent: () => import('./ratings/ratings.component').then(m => m.RatingsComponent),
       },
       {
         path: 'search',
-        title: 'Valex - Search',
+        title: 'CS - Search',
         loadComponent: () => import('./search/search.component').then(m => m.SearchComponent),
       },
       {
         path: 'sweet-alert',
-        title: 'Valex - Sweet Alerts',
+        title: 'CS - Sweet Alerts',
         loadComponent: () => import('./sweet-alert/sweet-alert.component').then(m => m.SweetAlertComponent),
       },
       {
         path: 'timeline',
-        title: 'Valex - Timeline',
+        title: 'CS - Timeline',
         loadComponent: () => import('./timeline/timeline.component').then(m => m.TimelineComponent),
       },
       {
         path: 'userlist',
-        title: 'Valex - Userlist',
+        title: 'CS - Userlist',
         loadComponent: () => import('./userlist/userlist.component').then(m => m.UserlistComponent),
       },
       {
         path: 'offcanvas',
-        title: 'Valex - Offcanvas',
+        title: 'CS - Offcanvas',
         loadComponent: () => import('./offcanvas/offcanvas.component').then(m => m.OffcanvasComponent),
       },
       {
         path: 'placeholders',
-        title: 'Valex - Placeholders',
+        title: 'CS - Placeholders',
         loadComponent: () => import('./placeholders/placeholders.component').then(m => m.PlaceholdersComponent),
       },
       {
         path: 'swiperjs',
-        title: 'Valex - Swiper JS',
+        title: 'CS - Swiper JS',
         loadComponent: () => import('./swiperjs/swiperjs.component').then(m => m.SwiperjsComponent),
       },
     ],

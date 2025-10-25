@@ -7,27 +7,27 @@ const routes: Routes = [
     children: [
       {
         path: 'mail',
-        title: 'Valex - Mail',
+        title: 'CS - Mail',
         loadComponent: () => import('./mail/mail.component').then(m => m.MailComponent),
       },
       {
         path: 'mail-compose',
-        title: 'Valex - Mail Compose',
+        title: 'CS - Mail Compose',
         loadComponent: () => import('./mail-compose/mail-compose.component').then(m => m.MailComposeComponent),
       },
       {
         path: 'read-mail',
-        title: 'Valex - Mail Read',
+        title: 'CS - Mail Read',
         loadComponent: () => import('./read-mail/read-mail.component').then(m => m.ReadMailComponent),
       },
       {
         path: 'mail-settings',
-        title: 'Valex - Mail Settings',
+        title: 'CS - Mail Settings',
         loadComponent: () => import('./mail-settings/mail-settings.component').then(m => m.MailSettingsComponent),
       },
       {
         path: 'chat',
-        title: 'Valex - Chat',
+        title: 'CS - Chat',
         loadComponent: () => import('./chat/chat.component').then(m => m.ChatComponent),
       },
     ],

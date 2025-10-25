@@ -58,42 +58,42 @@ export class NotificationComponent implements OnInit {
   }
 
   showDefault1() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-top-right',
       progressBar: false,
     });
   }
   showDefault2() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-top-center',
       progressBar: false,
     });
   }
   showDefault3() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-top-left',
       progressBar: false,
     });
   }
   showDefault4() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-bottom-center',
       progressBar: false,
     });
   }
   showDefault5() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-bottom-right',
       progressBar: false,
     });
   }
   showDefault6() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-bottom-left',
       progressBar: false,
@@ -101,14 +101,14 @@ export class NotificationComponent implements OnInit {
     });
   }
   showDefault7() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-bottom-right',
       progressBar: false,
     });
   }
   showDefault8() {
-    this.toastr.success('Details Successfully Uploaded', 'valex', {
+    this.toastr.success('Details Successfully Uploaded', 'CS', {
       timeOut: 3000,
       positionClass: 'toast-top-right',
       progressBar: false,

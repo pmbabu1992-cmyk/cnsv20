@@ -7,7 +7,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        title: 'Valex - Landing Page',
+        title: 'CS - Landing Page',
         loadComponent: () => import('./landing-page/landing-page.component').then(m => m.LandingPageComponent),
       },
     ],

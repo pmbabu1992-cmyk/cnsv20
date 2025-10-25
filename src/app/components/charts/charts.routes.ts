@@ -7,12 +7,12 @@ const routes: Routes = [
     children: [
       {
         path: 'chartjs',
-        title: 'Valex - Chartjs',
+        title: 'CS - Chartjs',
         loadComponent: () => import('./chartjs/chartjs.component').then(m => m.ChartjsComponent),
       },
       {
         path: 'echarts',
-        title: 'Valex - Echarts',
+        title: 'CS - Echarts',
         loadComponent: () => import('./echarts/echarts.component').then(m => m.EchartsComponent),
       },
     ],

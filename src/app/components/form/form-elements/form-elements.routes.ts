@@ -7,47 +7,47 @@ const routes: Routes = [
     children: [
       {
         path: 'inputs',
-        title: 'Valex - Inputs',
+        title: 'CS - Inputs',
         loadComponent: () => import('./inputs/inputs.component').then(m => m.InputsComponent),
       },
       {
         path: 'checks-radio',
-        title: 'Valex - Checks Radio',
+        title: 'CS - Checks Radio',
         loadComponent: () => import('./checks-radio/checks-radio.component').then(m => m.ChecksRadioComponent),
       },
       {
         path: 'input-group',
-        title: 'Valex - Input Group',
+        title: 'CS - Input Group',
         loadComponent: () => import('./input-group/input-group.component').then(m => m.InputGroupComponent),
       },
       {
         path: 'form-select',
-        title: 'Valex - Form Select',
+        title: 'CS - Form Select',
         loadComponent: () => import('./form-select/form-select.component').then(m => m.FormSelectComponent),
       },
       {
         path: 'range-slider',
-        title: 'Valex - Range Slider',
+        title: 'CS - Range Slider',
         loadComponent: () => import('./range-slider/range-slider.component').then(m => m.RangeSliderComponent),
       },
       {
         path: 'input-masks',
-        title: 'Valex - Input Masks',
+        title: 'CS - Input Masks',
         loadComponent: () => import('./input-masks/input-masks.component').then(m => m.InputMasksComponent),
       },
       {
         path: 'file-uploads',
-        title: 'Valex - File Uploads',
+        title: 'CS - File Uploads',
         loadComponent: () => import('./file-uploads/file-uploads.component').then(m => m.FileUploadsComponent),
       },
       {
         path: 'datetimepicker',
-        title: 'Valex - Date Time Picker',
+        title: 'CS - Date Time Picker',
         loadComponent: () => import('./date-time-picker/date-time-picker.component').then(m => m.DateTimePickerComponent),
       },
       {
         path: 'colorpicker',
-        title: 'Valex - Color Pickers',
+        title: 'CS - Color Pickers',
         loadComponent: () => import('./color-picker/color-picker.component').then(m => m.ColorPickerComponent),
       },
     ],

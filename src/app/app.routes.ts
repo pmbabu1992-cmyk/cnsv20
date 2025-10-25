@@ -7,7 +7,7 @@ export const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   {
     path: 'login',
-    title: 'Valex - Login',
+    title: 'CS - Login',
     loadComponent: () => import('./authentication/authentication.component').then(m => m.AuthenticationComponent),
   },
   { path: '', loadComponent: () => import('./shared/layouts/full-layout/full-layout.component').then(m => m.FullLayoutComponent), children: Full_Content_Routes },
@@ -20,7 +20,7 @@ export const routes: Routes = [
 
   {
     path: '',
-    title: 'Valex - login',
+    title: 'CS - login',
     loadComponent: () =>
       import('./authentication/authentication.component').then(
         m => m.AuthenticationComponent

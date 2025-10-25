@@ -7,52 +7,52 @@ const routes: Routes = [
     children: [
       {
         path: 'linecharts',
-        title: 'Valex - Line Chart',
+        title: 'CS - Line Chart',
         loadComponent: () => import('./linecharts/linecharts.component').then(m => m.LinechartsComponent),
       },
       {
         path: 'areacharts',
-        title: 'Valex - Area Chart',
+        title: 'CS - Area Chart',
         loadComponent: () => import('./areacharts/areacharts.component').then(m => m.AreachartsComponent),
       },
       {
         path: 'columncharts',
-        title: 'Valex - Column Chart',
+        title: 'CS - Column Chart',
         loadComponent: () => import('./columncharts/columncharts.component').then(m => m.ColumnchartsComponent),
       },
       {
         path: 'barcharts',
-        title: 'Valex - Bar Chart',
+        title: 'CS - Bar Chart',
         loadComponent: () => import('./barcharts/barcharts.component').then(m => m.BarchartsComponent)
       },
       {
         path: 'mixedcharts',
-        title: 'Valex - Mixed Chart',
+        title: 'CS - Mixed Chart',
         loadComponent: () => import('./mixedcharts/mixedcharts.component').then(m => m.MixedchartsComponent),
       },
       {
         path: 'rangeareacharts',
-        title: 'Valex - Range Area Charts',
+        title: 'CS - Range Area Charts',
         loadComponent: () => import('./rangeareacharts/rangeareacharts.component').then(m => m.RangeareachartsComponent),
       },
       {
         path: 'timelinecharts',
-        title: 'Valex - Timeline Charts',
+        title: 'CS - Timeline Charts',
         loadComponent: () => import('./timelinecharts/timelinecharts.component').then(m => m.TimelinechartsComponent),
       },
       {
         path: 'candlestickcharts',
-        title: 'Valex - CandleStick Charts',
+        title: 'CS - CandleStick Charts',
         loadComponent: () => import('./candlestickcharts/candlestickcharts.component').then(m => m.CandlestickchartsComponent),
       },
       {
         path: 'boxplotcharts',
-        title: 'Valex - Boxplot Chart',
+        title: 'CS - Boxplot Chart',
         loadComponent: () => import('./boxplotcharts/boxplotcharts.component').then(m => m.BoxplotchartsComponent),
       },
       {
         path: 'bubblecharts',
-        title: 'Valex - Bubble Chart',
+        title: 'CS - Bubble Chart',
         loadComponent: () => import('./bubblecharts/bubblecharts.component').then(m => m.BubblechartsComponent),
       },
       {
@@ -62,32 +62,32 @@ const routes: Routes = [
       },
       {
         path: 'heatmapcharts',
-        title: 'Valex - Heatmap Chart',
+        title: 'CS - Heatmap Chart',
         loadComponent: () => import('./heatmapcharts/heatmapcharts.component').then(m => m.HeatmapchartsComponent),
       },
       {
         path: 'treemapcharts',
-        title: 'Valex - Treemap Chart',
+        title: 'CS - Treemap Chart',
         loadComponent: () => import('./treemapcharts/treemapcharts.component').then(m => m.TreemapchartsComponent),
       },
       {
         path: 'piecharts',
-        title: 'Valex - Pie Chart',
+        title: 'CS - Pie Chart',
         loadComponent: () => import('./piecharts/piecharts.component').then(m => m.PiechartsComponent),
       },
       {
         path: 'radialbarcharts',
-        title: 'Valex - Radialbar Chart',
+        title: 'CS - Radialbar Chart',
         loadComponent: () => import('./radialbarcharts/radialbarcharts.component').then(m => m.RadialbarchartsComponent),
       },
       {
         path: 'radarcharts',
-        title: 'Valex - Radar Chart',
+        title: 'CS - Radar Chart',
         loadComponent: () => import('./radarcharts/radarcharts.component').then(m => m.RadarchartsComponent),
       },
       {
         path: 'polarareacharts',
-        title: 'Valex - Polararea Chart',
+        title: 'CS - Polararea Chart',
         loadComponent: () => import('./polarareacharts/polarareacharts.component').then(m => m.PolarareachartsComponent),
       },
     ],

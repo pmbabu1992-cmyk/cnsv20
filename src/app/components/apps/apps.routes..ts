@@ -8,42 +8,42 @@ const routes: Routes = [
     children: [
       {
         path: 'calendar',
-        title: 'Valex - Calendar',
+        title: 'CS - Calendar',
         loadComponent: () => import('./calendar/calendar.component').then(m => m.CalendarComponent),
       },
       {
         path: 'cards',
-        title: 'Valex - Cards',
+        title: 'CS - Cards',
         loadComponent: () => import('./cards/cards.component').then(m => m.CardsComponent),
       },
       {
         path: 'contacts',
-        title: 'Valex - Contacts',
+        title: 'CS - Contacts',
         loadComponent: () => import('./contacts/contacts.component').then(m => m.ContactsComponent),
       },
       {
         path: 'draggablecards',
-        title: 'Valex - Draggablecards',
+        title: 'CS - Draggablecards',
         loadComponent: () => import('./draggablecards/draggablecards.component').then(m => m.DraggablecardsComponent),
       },
       {
         path: 'notification',    
-        title: 'Valex - Notification',
+        title: 'CS - Notification',
         loadComponent: () => import('./notification/notification.component').then(m => m.NotificationComponent),
       },
       {
         path: 'widgets',
-        title: 'Valex - widgets',
+        title: 'CS - widgets',
         loadComponent: () => import('./widgets/widgets.component').then(m => m.WidgetsComponent),
       },
       {
         path: 'treeview',
-        title: 'Valex - Treeview',
+        title: 'CS - Treeview',
         loadComponent: () => import('./treeview/treeview.component').then(m => m.TreeviewComponent),
       },
       {
         path: 'widgetnotification',
-        title: 'Valex - Widgetnotification',
+        title: 'CS - Widgetnotification',
         loadComponent: () => import('./widget-notification/widget-notification.component').then(m => m.WidgetNotificationComponent),
       },
     ],
